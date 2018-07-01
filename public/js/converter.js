@@ -105,10 +105,6 @@ class CurrencyConverter {
     document.querySelector('#convert-now')
       .addEventListener('click', (event) => {
         let convertBtn = document.querySelector('#convert-now');
-        // Show the user that something is loading
-        // and disable the button to avoid double request
-        convertBtn.innerHTML = 'Loading ...';
-        convertBtn.disabled = true;
   
         let country1 = document.querySelector('#country1').value;
         let country2 = document.querySelector('#country2').value;
@@ -121,6 +117,10 @@ class CurrencyConverter {
         if (country1 == 0 || country2 == 0 || amount == '' || amount < 0 ) {
           return;
         }
+        // Show the user that something is loading
+        // and disable the button to avoid double request
+        convertBtn.innerHTML = 'Loading ...';
+        convertBtn.disabled = true;
         // Get the exchange rate 
         this.getExchangeRate(query).then(result => {
           let convertedAmount = document.querySelector('#converted-amount');
