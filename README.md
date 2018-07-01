@@ -16,3 +16,6 @@
 - run node `server.js` to start the server
 - head to your browser and type `localhost:3000`
 - Enjoy!
+
+## See for yourself
+- https://andela-tolotin.github.io/temitope-converter.github.io/
