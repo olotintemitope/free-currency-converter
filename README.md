@@ -18,4 +18,4 @@
 - Enjoy!
 
 ## See for yourself
-- https://andela-tolotin.github.io/temitope-converter.github.io/
+- https://andela-tolotin.github.io/free-currency-converter/
