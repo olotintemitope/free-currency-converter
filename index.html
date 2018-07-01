@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="theme-color" content="#3E82F7">
+        <title>Currency Converter</title>
+        <link rel="manifest" href="manifest.json">
+        <link rel="shortcut icon" type="image/png" href="images/icon@2x.png"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Currency Converter</h1>
+        </header>
+        <main>
+            <p class="online-status">Oh hey. You are <span class="connectivity-status">online</span>.</p>
+            <table id="converter-wrapper" class="table table table-bordered">
+                <tr>
+                    <td class="equal-width">
+                        <input type="text" class="form-control" id="amount" placeholder="Amount to convert">
+                    </td>
+                    <td class="equal-width">
+                        <select id="country1" class="form-control">
+                            <option value="0">Convert From</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" id="converted-amount" disabled>
+                    </td>
+                    <td>
+                        <select id="country2" class="form-control">
+                            <option value="0">Convert To</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr colspan="2">
+                    <td>
+                        <button class="btn btn-primary convert-now" id="convert-now">Convert</button>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <script src="js/idb.js" type="text/javascript"></script>
+        <script src="js/converter.js" type="text/javascript"></script>
+    </body>
+</html>

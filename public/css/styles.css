@@ -1,0 +1,166 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica', 'Arial', sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    color: #222;
+    letter-spacing: 0.01em;
+}
+
+h1 {
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h1, p {
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.connectivity-status {
+    font-weight: 600;
+}
+
+p.online-status {
+    text-align: center;
+}
+
+table#converter-wrapper {
+    margin: auto;
+}
+
+td.equal-width {
+    width: 50%;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button, input, select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
