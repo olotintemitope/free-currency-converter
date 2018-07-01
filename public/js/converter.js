@@ -30,7 +30,7 @@ class CurrencyConverter {
   registerWorker() {
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () =>
-        navigator.serviceWorker.register('/public/js/serviceWorker.js')
+        navigator.serviceWorker.register('public/js/serviceWorker.js')
       );
     }
 
