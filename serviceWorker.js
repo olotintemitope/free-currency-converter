@@ -2,7 +2,7 @@ const cacheName = 'pwa-currency-converter';
 const cacheVersion = `${cacheName}::1.0.0`;
 
 const cachedFiles = [
-  '/',
+  '/index.html',
   'public/images/icon@2x.png',
   'public/css/styles.css',
   'public/js/idb.js',
