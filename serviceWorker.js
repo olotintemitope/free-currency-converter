@@ -3,10 +3,10 @@ const cacheVersion = `${cacheName}::1.0.0`;
 
 const cachedFiles = [
   '/',
-  'images/icon@2x.png',
-  '/css/styles.css',
-  'js/idb.js',
-  'js/converter.js'
+  'public/images/icon@2x.png',
+  'public/css/styles.css',
+  'public/js/idb.js',
+  'public/js/converter.js'
 ];
 
 const networkFiles = [];
